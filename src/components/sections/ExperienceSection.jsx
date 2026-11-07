@@ -109,9 +109,23 @@ export default function ExperienceSection() {
                 <h3 className="text-lg font-bold text-white group-hover:text-gold-300 transition-colors">
                   {item.title}
                 </h3>
-                <p className="text-xs text-slate-400 font-mono mb-2">
-                  {item.organization}
-                </p>
+                <div className="flex flex-wrap items-center gap-2 mb-2">
+                  <span className="text-xs text-slate-400 font-mono">
+                    {item.organization}
+                  </span>
+                  {item.score && (
+                    <span className="px-2 py-0.5 rounded text-[11px] font-mono bg-editor-deep text-cyan-400 border border-editor-bordersubtle">
+                      {item.score}
+                    </span>
+                  )}
+                </div>
+
+                {item.problemStatement && (
+                  <div className="mb-2.5 p-2.5 rounded bg-editor-deep/90 border border-editor-bordersubtle font-mono text-[11px] text-gold-300">
+                    <span className="text-slate-400 block text-[10px] uppercase font-bold tracking-wider mb-0.5">Problem Statement:</span>
+                    "{item.problemStatement}"
+                  </div>
+                )}
 
                 <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
                   {item.description}

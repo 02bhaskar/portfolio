@@ -11,6 +11,7 @@ import {
   MessageSquare 
 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../icons/BrandIcons';
+import { launchConfetti } from '../../utils/confetti';
 import { personalInfo } from '../../data/portfolioData';
 
 export default function ContactSection() {
@@ -33,6 +34,7 @@ export default function ContactSection() {
     setTimeout(() => {
       setIsSubmitting(false);
       setFormSubmitted(true);
+      launchConfetti();
       setFormState({ name: '', email: '', subject: '', message: '' });
     }, 1000);
   };

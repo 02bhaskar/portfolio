@@ -13,6 +13,7 @@ import {
   Phone
 } from 'lucide-react';
 import { personalInfo, education, experienceData, achievementsData, projectsData } from '../../data/portfolioData';
+import { launchConfetti } from '../../utils/confetti';
 
 export default function ResumeSection() {
   const [showIframe, setShowIframe] = useState(true);
@@ -37,6 +38,7 @@ export default function ResumeSection() {
           <a
             href={personalInfo.resumeUrl}
             download="Bhaskar_G_Resume.pdf"
+            onClick={launchConfetti}
             className="flex items-center gap-2 px-5 py-2.5 rounded-md bg-gold-500 hover:bg-gold-400 text-editor-deep font-bold text-sm transition-all shadow-gold-sm hover:shadow-gold-glow"
           >
             <Download size={16} />
@@ -79,7 +81,7 @@ export default function ResumeSection() {
           </div>
           <div className="text-right hidden sm:block">
             <span className="inline-block px-3 py-1 rounded bg-editor-deep border border-gold-500/30 text-gold-300 text-xs font-mono">
-              Class of 2027
+              Class of 2028
             </span>
           </div>
         </div>

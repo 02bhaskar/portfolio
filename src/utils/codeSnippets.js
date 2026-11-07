@@ -15,7 +15,7 @@ interface DeveloperProfile {
 export const BhaskarProfile: DeveloperProfile = {
   name: "BHASKAR G",
   role: "Aspiring AI & Data Science Engineer | Full-Stack Developer",
-  education: "B.Tech AI & Data Science @ Dr. N.G.P. iTech, Coimbatore",
+  education: "B.Tech AI & Data Science (2024–2028) @ Dr. N.G.P. iTech, Coimbatore",
   location: "Hosur / Coimbatore, Tamil Nadu, India",
   status: "Open to Work",
   focusAreas: [
@@ -38,9 +38,9 @@ export default function Hero() {
   about: `# About Me - Bhaskar G
 
 ## Academic Background
-- **Degree:** B.Tech in Artificial Intelligence and Data Science
+- **Degree:** B.Tech in Artificial Intelligence and Data Science (2024–2028)
 - **Institution:** Dr. N.G.P. Institute of Technology, Coimbatore
-- **Academic Status:** Pre-final Year (III Year, Class of 2027)
+- **Academic Status:** Pre-final Year (Class of 2028)
 - **Hometown:** Hosur, Tamil Nadu, India
 
 ## My Journey & Passion
@@ -70,6 +70,11 @@ My work spans from building smart web platforms that assist farmers, to coding l
       "title": "NPTEL Human-Computer Interaction",
       "grade": "Elite Silver (Score: 80%)",
       "authority": "IIIT Delhi / SWAYAM"
+    },
+    {
+      "title": "NPTEL Social Networks",
+      "grade": "Elite (Score: 60%)",
+      "authority": "IIT Madras / SWAYAM"
     }
   ]
 }`,
@@ -119,17 +124,22 @@ experience:
     technologies: ["Full-Stack", "Web Frameworks", "API Development", "Git"]
 
 achievements:
-  - title: "Smart India Hackathon (SIH)"
-    status: "Finalist"
+  - title: "Smart India Hackathon (SIH) 2026"
+    status: "National level participation"
+    problem_statement: "AI-Based Smart Logistics and Accessibility Intelligence Platform for North Eastern Region (NER)"
     scope: "National Hackathon - Ministry of Education"
   
   - title: "Vishwakarma Awards 2025"
-    status: "Prototype Stage Recognition"
+    status: "Finalist"
     project: "EchoShield ANC - Active Noise Cancellation"
 
   - title: "NPTEL HCI Certification"
     status: "Elite Silver (Score: 80%)"
-    issuer: "IIIT Delhi & NPTEL"`,
+    issuer: "IIIT Delhi & NPTEL"
+
+  - title: "NPTEL Social Networks Certification"
+    status: "Elite (Score: 60%)"
+    issuer: "IIT Madras & NPTEL"`,
 
   contact: `# .env.production
 DEVELOPER_NAME="BHASKAR G"

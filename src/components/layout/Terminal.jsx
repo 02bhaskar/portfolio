@@ -9,6 +9,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { personalInfo, projectsData, skillsData, achievementsData } from '../../data/portfolioData';
+import { launchConfetti } from '../../utils/confetti';
 
 export default function Terminal({ 
   isOpen, 
@@ -94,9 +95,11 @@ Location: ${personalInfo.location}`
         newHistory.push({
           type: 'output',
           text: `Achievements & Certifications:
-  🏆 Smart India Hackathon (SIH) - Finalist
-  🏆 Vishwakarma Awards 2025 - Prototype Stage (EchoShield ANC)
-  🏆 NPTEL HCI Certification - Score: 80% (Elite Silver, IIIT Delhi)`
+  🏆 Smart India Hackathon (SIH) 2026 - National Level Participation
+     Problem: "AI-Based Smart Logistics and Accessibility Intelligence Platform for North Eastern Region (NER)"
+  🏆 Vishwakarma Awards 2025 - National Finalist (EchoShield ANC)
+  🏆 NPTEL HCI Certification - Score: 80% (Elite Silver, IIIT Delhi)
+  🏆 NPTEL Social Networks Certification - Score: 60% (Elite, IIT Madras)`
         });
         setActiveTab('experience');
       } else if (cmd === 'contact') {
@@ -116,6 +119,7 @@ Location: ${personalInfo.location}`
         });
         setActiveTab('resume');
       } else if (cmd === 'sudo hire' || cmd === 'sudo hire bhaskar') {
+        launchConfetti();
         newHistory.push({
           type: 'gold',
           text: `🎉 Access Granted! Excellent decision. Bhaskar is eager to contribute to forward-thinking AI & engineering teams! Navigating to Contact...`

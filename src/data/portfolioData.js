@@ -12,10 +12,10 @@ export const personalInfo = {
   resumeUrl: "/resume.pdf",
   bio: "Pre-final Year B.Tech student in Artificial Intelligence and Data Science at Dr. N.G.P. Institute of Technology. Passionate about architecting intelligent systems that bridge modern full-stack web applications, edge AI/ML solutions, and embedded hardware prototypes.",
   stats: [
-    { label: "Academic Standing", value: "III Year B.Tech", sub: "AI & Data Science" },
+    { label: "Academic Standing", value: "B.Tech AI & DS", sub: "2024 – 2028" },
     { label: "Core Projects", value: "5+ Flagship", sub: "Web, AI & Embedded" },
-    { label: "Competitions", value: "SIH Finalist", sub: "Smart India Hackathon" },
-    { label: "Hardware Innovation", value: "Vishwakarma '25", sub: "Prototype Stage" }
+    { label: "Hackathons", value: "SIH 2026", sub: "National Participant" },
+    { label: "Hardware Innovation", value: "Vishwakarma '25", sub: "Finalist" }
   ]
 };
 
@@ -24,7 +24,7 @@ export const education = {
   institution: "Dr. N.G.P. Institute of Technology",
   location: "Coimbatore, Tamil Nadu",
   status: "Pre-final Year / III Year",
-  duration: "2023 – 2027",
+  duration: "2024 – 2028",
   highlights: [
     "Specializing in Machine Learning, Generative AI, and Agentic Systems.",
     "Active member of Technical Clubs, Project Competitions, and Hackathons.",
@@ -101,17 +101,17 @@ export const projectsData = [
     featured: true,
     fileBadge: "EchoShieldANC.cpp",
     description: "A hardware-accelerated acoustic noise cancellation device designed to attenuate industrial acoustic hazards using real-time LMS adaptive filtering and Fast Fourier Transform algorithms.",
-    longDescription: "Recognized at the prestigious Vishwakarma Awards 2025 Prototype Stage, EchoShield ANC captures ambient acoustic noise through high-sensitivity MAX9814 microphones, processes soundwaves using Least Mean Squares (LMS) adaptive filters on an ESP32 microcontroller, and generates an exact anti-phase cancellation signal delivered through a PAM8403 power amplifier.",
+    longDescription: "Recognized as a Finalist at the prestigious Vishwakarma Awards 2025, EchoShield ANC captures ambient acoustic noise through high-sensitivity MAX9814 microphones, processes soundwaves using Least Mean Squares (LMS) adaptive filters on an ESP32 microcontroller, and generates an exact anti-phase cancellation signal delivered through a PAM8403 power amplifier.",
     tags: ["Embedded Systems", "LMS Algorithm", "Arduino FFT", "Acoustics", "ESP32", "DSP"],
     technologies: ["ESP32", "MAX9814 Mic", "PAM8403 Amp", "C++", "Arduino IDE", "Digital Signal Processing"],
     highlights: [
-      "Selected and honored at Vishwakarma Awards 2025 – Prototype Stage.",
+      "Selected as National Finalist at Vishwakarma Awards 2025.",
       "Real-time anti-noise phase generation with low-latency DSP computation on ESP32.",
       "Designed for factory floor acoustic safety compliance and heavy-machinery worker protection."
     ],
     github: "https://github.com/02bhaskar",
     demo: "#",
-    status: "Award-Nominated Hardware Prototype"
+    status: "Vishwakarma Awards '25 Finalist"
   },
   {
     id: "agrosmart",
@@ -193,20 +193,21 @@ export const experienceData = [
 
 export const achievementsData = [
   {
-    title: "Smart India Hackathon (SIH) – Finalist",
+    title: "Smart India Hackathon (SIH) 2026",
     organization: "Ministry of Education & AICTE, Government of India",
-    year: "Finalist Stage",
+    year: "2026",
     category: "National Hackathon",
-    badge: "National Finalist",
-    description: "Competed at the national level among premier institutions across India, formulating innovative tech solutions for pressing real-world challenges."
+    badge: "National level participation",
+    problemStatement: "AI-Based Smart Logistics and Accessibility Intelligence Platform for North Eastern Region (NER)",
+    description: "National level participation under the official problem statement: \"AI-Based Smart Logistics and Accessibility Intelligence Platform for North Eastern Region (NER)\". Engineered resilient terrain routing, GIS analytics, and local-first logistics architecture."
   },
   {
-    title: "Vishwakarma Awards 2025 – Prototype Stage",
+    title: "Vishwakarma Awards 2025",
     organization: "Maker Bhavan Foundation & National Engineering Initiative",
     year: "2025",
     category: "Hardware Innovation",
-    badge: "Prototype Stage Selected",
-    description: "Selected and recognized at the Prototype Stage for EchoShield ANC, an active acoustic cancellation device leveraging ESP32 DSP and LMS algorithms."
+    badge: "Finalist",
+    description: "Selected as National Finalist for EchoShield ANC, an active acoustic noise cancellation device leveraging ESP32 DSP and LMS adaptive filtering algorithms."
   },
   {
     title: "NPTEL Certification – Human-Computer Interaction",
@@ -215,6 +216,14 @@ export const achievementsData = [
     score: "Score: 80%",
     badge: "Elite Silver",
     description: "Completed rigorous academic certification on UI/UX psychology, cognitive ergonomics, interaction design models, and usability testing with an Elite Silver distinction."
+  },
+  {
+    title: "NPTEL Certification – Social Networks",
+    organization: "Indian Institute of Technology Madras (IIT Madras) & NPTEL",
+    year: "Certified",
+    score: "Score: 60%",
+    badge: "Elite",
+    description: "Certified with Elite distinction in graph theory, social contagion, network dynamics, information diffusion, and structural balance models by IIT Madras."
   }
 ];
 

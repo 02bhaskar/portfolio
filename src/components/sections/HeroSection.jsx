@@ -61,11 +61,11 @@ export default function HeroSection({ setActiveTab }) {
             </div>
             <div className="flex items-center gap-1.5 bg-editor-card px-2.5 py-1 rounded border border-editor-border">
               <GraduationCap size={13} className="text-cyan-400" />
-              <span>B.Tech AI & DS (2023–2027)</span>
+              <span>B.Tech AI & DS (2024–2028)</span>
             </div>
             <div className="flex items-center gap-1.5 bg-editor-card px-2.5 py-1 rounded border border-editor-border">
               <Award size={13} className="text-emerald-400" />
-              <span>SIH Finalist & Vishwakarma '25</span>
+              <span>SIH 2026 Participant & Vishwakarma '25 Finalist</span>
             </div>
           </div>
 

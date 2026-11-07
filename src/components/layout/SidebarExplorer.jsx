@@ -301,14 +301,14 @@ export default function SidebarExplorer({
                 <GitCommit size={13} className="text-emerald-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="font-mono text-gold-300">feat(awards): Vishwakarma 2025</div>
-                  <div className="text-slate-400 text-[10px]">EchoShield ANC Prototype Stage</div>
+                  <div className="text-slate-400 text-[10px]">EchoShield ANC Finalist</div>
                 </div>
               </div>
               <div className="flex items-start gap-1.5 text-slate-300">
                 <GitCommit size={13} className="text-cyan-400 mt-0.5 flex-shrink-0" />
                 <div>
-                  <div className="font-mono text-cyan-300">feat(hackathon): SIH Finalist</div>
-                  <div className="text-slate-400 text-[10px]">Smart India Hackathon National Round</div>
+                  <div className="font-mono text-cyan-300">feat(hackathon): SIH 2026</div>
+                  <div className="text-slate-400 text-[10px]">National Level Participation</div>
                 </div>
               </div>
               <div className="flex items-start gap-1.5 text-slate-300">
@@ -316,6 +316,13 @@ export default function SidebarExplorer({
                 <div>
                   <div className="font-mono text-purple-300">cert(nptel): HCI Elite Silver</div>
                   <div className="text-slate-400 text-[10px]">Score: 80% • IIIT Delhi</div>
+                </div>
+              </div>
+              <div className="flex items-start gap-1.5 text-slate-300">
+                <GitCommit size={13} className="text-blue-400 mt-0.5 flex-shrink-0" />
+                <div>
+                  <div className="font-mono text-blue-300">cert(nptel): Social Networks</div>
+                  <div className="text-slate-400 text-[10px]">Score: 60% Elite • IIT Madras</div>
                 </div>
               </div>
             </div>
