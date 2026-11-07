@@ -144,3 +144,4 @@ Follow the interactive prompts to deploy directly.
 2. Enter your custom domain (e.g., `bhaskarg.dev` or `bhaskar.tech`).
 3. Add the DNS records (CNAME or A record) provided by Vercel to your domain registrar (GoDaddy, Namecheap, Cloudflare, etc.).
 4. Vercel will automatically provision free SSL certificates within minutes.
+

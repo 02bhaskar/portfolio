@@ -227,3 +227,4 @@ export const workspaceFiles = [
   { id: "resume", name: "Resume.pdf", path: "public/resume.pdf", icon: "FileText", lang: "pdf", modified: false },
   { id: "contact", name: "Contact.env", path: ".env.production", icon: "Settings", lang: "bash", modified: false }
 ];
+

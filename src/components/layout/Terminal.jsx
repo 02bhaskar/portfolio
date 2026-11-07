@@ -235,3 +235,4 @@ Location: ${personalInfo.location}`
     </div>
   );
 }
+

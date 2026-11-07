@@ -8,7 +8,8 @@ import {
   FileText, 
   Terminal, 
   ExternalLink,
-  Monitor
+  Monitor,
+  Settings
 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../icons/BrandIcons';
 import { personalInfo } from '../../data/portfolioData';
@@ -21,7 +22,8 @@ export default function ActivityBar({
   viewMode,
   setViewMode,
   activeTab,
-  setActiveTab
+  setActiveTab,
+  onOpenSettings
 }) {
   const items = [
     { id: 'explorer', icon: Files, label: 'Explorer (Ctrl+Shift+E)' },
@@ -120,6 +122,15 @@ export default function ActivityBar({
         >
           <LinkedinIcon size={19} />
         </a>
+
+        {/* Settings & Preferences */}
+        <button
+          onClick={onOpenSettings}
+          title="Settings & Theme Customizer"
+          className="w-full py-2 flex justify-center items-center text-slate-400 hover:text-gold-300 transition-colors"
+        >
+          <Settings size={19} strokeWidth={1.8} />
+        </button>
       </div>
     </aside>
   );

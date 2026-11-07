@@ -34,3 +34,4 @@ export const LinkedinIcon = ({ size = 18, className = "" }) => (
     <circle cx="4" cy="4" r="2" />
   </svg>
 );
+

@@ -14,6 +14,7 @@ import ResumeSection from './components/sections/ResumeSection';
 import ContactSection from './components/sections/ContactSection';
 import CodeView from './components/views/CodeView';
 import FullPageView from './components/views/FullPageView';
+import SettingsModal from './components/SettingsModal';
 
 import { codeSnippets } from './utils/codeSnippets';
 import { workspaceFiles } from './data/portfolioData';
@@ -28,6 +29,8 @@ export default function App() {
   const [isTerminalOpen, setIsTerminalOpen] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const [currentTheme, setCurrentTheme] = useState('gold');
 
   // Keyboard shortcut listener (` for terminal toggle, Ctrl+B for sidebar)
   useEffect(() => {
@@ -122,6 +125,7 @@ export default function App() {
           setViewMode={setViewMode}
           activeTab={activeTab}
           setActiveTab={setActiveTab}
+          onOpenSettings={() => setIsSettingsOpen(true)}
         />
 
         {/* Sidebar Explorer (Desktop) */}
@@ -191,6 +195,19 @@ export default function App() {
         viewMode={viewMode}
         setViewMode={setViewMode}
       />
+
+      {/* Settings & Theme Customizer Modal */}
+      <SettingsModal
+        isOpen={isSettingsOpen}
+        onClose={() => setIsSettingsOpen(false)}
+        currentTheme={currentTheme}
+        setCurrentTheme={setCurrentTheme}
+        viewMode={viewMode}
+        setViewMode={setViewMode}
+        isTerminalOpen={isTerminalOpen}
+        setIsTerminalOpen={setIsTerminalOpen}
+      />
     </div>
   );
 }
+
