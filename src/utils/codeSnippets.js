@@ -16,7 +16,7 @@ export const BhaskarProfile: DeveloperProfile = {
   name: "BHASKAR G",
   role: "Aspiring AI & Data Science Engineer | Full-Stack Developer",
   education: "B.Tech AI & Data Science (2024–2028) @ Dr. N.G.P. iTech, Coimbatore",
-  location: "Hosur / Coimbatore, Tamil Nadu, India",
+  location: "Coimbatore, Tamil Nadu, India",
   status: "Open to Work",
   focusAreas: [
     "Agentic AI & Generative AI",
@@ -41,7 +41,7 @@ export default function Hero() {
 - **Degree:** B.Tech in Artificial Intelligence and Data Science (2024–2028)
 - **Institution:** Dr. N.G.P. Institute of Technology, Coimbatore
 - **Academic Status:** Pre-final Year (Class of 2028)
-- **Hometown:** Hosur, Tamil Nadu, India
+- **Location:** Coimbatore, Tamil Nadu, India
 
 ## My Journey & Passion
 I am driven by the intersection of theoretical data science, software engineering, and real-world embedded hardware. 
@@ -141,7 +141,7 @@ PRIMARY_EMAIL="bhaskar272006@gmail.com"
 PRIMARY_PHONE="+91 9345614976"
 GITHUB_PROFILE="https://github.com/02bhaskar"
 LINKEDIN_PROFILE="https://www.linkedin.com/in/boss02"
-CURRENT_LOCATION="Hosur / Coimbatore, Tamil Nadu, India"
+CURRENT_LOCATION="Coimbatore, Tamil Nadu, India"
 ACADEMIC_INSTITUTION="Dr. N.G.P. Institute of Technology"
 CURRENT_STATUS="Available for Internships & AI/Data Science Roles"
 `,

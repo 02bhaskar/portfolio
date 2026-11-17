@@ -3,7 +3,7 @@ export const personalInfo = {
   shortName: "Bhaskar",
   tagline: "Aspiring AI & Data Science Engineer | Full-Stack & Systems Developer",
   status: "Available for Internships & AI/DS Roles",
-  location: "Hosur & Coimbatore, Tamil Nadu, India",
+  location: "Coimbatore, Tamil Nadu, India",
   email: "bhaskar272006@gmail.com",
   phone: "+91 9345614976",
   github: "https://github.com/02bhaskar",

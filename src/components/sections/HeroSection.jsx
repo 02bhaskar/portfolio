@@ -58,7 +58,7 @@ export default function HeroSection({ setActiveTab }) {
           <div className="flex flex-wrap items-center gap-4 text-xs font-mono text-slate-400 pt-1">
             <div className="flex items-center gap-1.5 bg-editor-card px-2.5 py-1 rounded border border-editor-border">
               <MapPin size={13} className="text-gold-400" />
-              <span>Hosur & Coimbatore, TN</span>
+              <span>Coimbatore, TN</span>
             </div>
             <div className="flex items-center gap-1.5 bg-editor-card px-2.5 py-1 rounded border border-editor-border">
               <GraduationCap size={13} className="text-cyan-400" />

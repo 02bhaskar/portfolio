@@ -63,7 +63,7 @@ export default function AboutSection({ setActiveTab }) {
         {/* Right 2 Columns: Bio & Philosophy */}
         <div className="md:col-span-2 space-y-5 text-slate-300 text-sm sm:text-base leading-relaxed">
           <p>
-            I am a Pre-final Year student pursuing my <strong className="text-white">B.Tech in Artificial Intelligence & Data Science</strong> at <strong className="text-white">Dr. N.G.P. Institute of Technology, Coimbatore</strong>, originally from Hosur, Tamil Nadu.
+            I am a Pre-final Year student pursuing my <strong className="text-white">B.Tech in Artificial Intelligence & Data Science</strong> at <strong className="text-white">Dr. N.G.P. Institute of Technology, Coimbatore</strong>, Tamil Nadu.
           </p>
 
           <p>
