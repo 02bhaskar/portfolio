@@ -23,11 +23,11 @@ export const education = {
   degree: "B.Tech – Artificial Intelligence and Data Science",
   institution: "Dr. N.G.P. Institute of Technology",
   location: "Coimbatore, Tamil Nadu",
-  status: "Pre-final Year / III Year",
+  status: "Pre-final Year (2024–2028) • CGPA: 7.39",
   duration: "2024 – 2028",
   highlights: [
     "Specializing in Machine Learning, Generative AI, and Agentic Systems.",
-    "Active member of Technical Clubs, Project Competitions, and Hackathons.",
+    "Academic Performance: CGPA / Percentage: 7.39.",
     "Recognized for interdisciplinary projects combining hardware DSP and cloud intelligence."
   ]
 };
@@ -158,37 +158,35 @@ export const projectsData = [
 
 export const experienceData = [
   {
-    role: "Software Development Intern",
+    role: "AI Intern",
     company: "DLK Software Solutions",
-    location: "Chennai, Tamil Nadu",
-    period: "Internship Exposure",
+    location: "Chennai, India",
+    period: "June 2026",
     type: "Internship",
-    description: "Engaged in full-stack software development workflows, hands-on module engineering, API integration, and collaborative codebase version control.",
+    description: "Completed hands-on training covering AI tools, ML frameworks, model development, and real-world business use cases with Generative AI.",
     highlights: [
-      "Developed and tested full-stack software modules using modern web frameworks.",
-      "Collaborated with senior engineers on backend integration and database query optimization.",
-      "Practiced Agile sprint routines, code reviews, and Git version control."
+      "Completed a 15-day hands-on training program covering AI tools, ML frameworks, model development, and AI workflows.",
+      "Explored Generative AI, prompt engineering, and AI-assisted software development, applying AI concepts to real-world business use cases."
     ]
   }
 ];
 
 export const achievementsData = [
   {
-    title: "Smart India Hackathon (SIH) 2026",
-    organization: "Ministry of Education & AICTE, Government of India",
-    year: "2026",
+    title: "MSME Hackathon",
+    organization: "Ministry of Micro, Small and Medium Enterprises",
+    year: "Finalist",
     category: "National Hackathon",
-    badge: "National level participation",
-    problemStatement: "AI-Based Smart Logistics and Accessibility Intelligence Platform for North Eastern Region (NER)",
-    description: "National level participation under the official problem statement: \"AI-Based Smart Logistics and Accessibility Intelligence Platform for North Eastern Region (NER)\". Engineered resilient terrain routing, GIS analytics, and local-first logistics architecture."
+    badge: "Finalist",
+    description: "Selected as a Finalist in the MSME Hackathon, recognizing innovative problem-solving and practical application of technical skills."
   },
   {
     title: "Vishwakarma Awards 2025",
     organization: "Maker Bhavan Foundation & National Engineering Initiative",
     year: "2025",
-    category: "Hardware Innovation",
+    category: "Intelligent Machine",
     badge: "Finalist",
-    description: "Selected as National Finalist for EchoShield ANC, an active acoustic noise cancellation device leveraging ESP32 DSP and LMS adaptive filtering algorithms."
+    description: "Selected as a finalist in the Vishwakarma Awards 2025 in the Intelligent Machine category for EchoShield ANC."
   },
   {
     title: "NPTEL Certification – Human-Computer Interaction",
@@ -196,15 +194,16 @@ export const achievementsData = [
     year: "Certified",
     score: "Score: 80%",
     badge: "Elite Silver",
-    description: "Completed rigorous academic certification on UI/UX psychology, cognitive ergonomics, interaction design models, and usability testing with an Elite Silver distinction."
+    description: "Completed a 12-week NPTEL course in Human-Computer Interaction (HCI) with 80% (IIIT Delhi)."
   },
   {
-    title: "NPTEL Certification – Social Networks",
-    organization: "Indian Institute of Technology Madras (IIT Madras) & NPTEL",
-    year: "Certified",
-    score: "Score: 60%",
-    badge: "Elite",
-    description: "Certified with Elite distinction in graph theory, social contagion, network dynamics, information diffusion, and structural balance models by IIT Madras."
+    title: "Smart India Hackathon (SIH) 2026",
+    organization: "Ministry of Education & AICTE, Government of India",
+    year: "2026",
+    category: "National Hackathon",
+    badge: "National Level",
+    problemStatement: "AI-Based Smart Logistics and Accessibility Intelligence Platform for North Eastern Region (NER)",
+    description: "National level participation under official problem statement: \"AI-Based Smart Logistics and Accessibility Intelligence Platform for North Eastern Region (NER)\"."
   }
 ];
 

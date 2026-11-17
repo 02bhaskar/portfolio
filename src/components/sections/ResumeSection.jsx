@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { personalInfo, education, experienceData, achievementsData, projectsData } from '../../data/portfolioData';
 import { launchConfetti } from '../../utils/confetti';
+import resumePdf from '../../assets/resume.pdf';
 
 export default function ResumeSection() {
   const [showIframe, setShowIframe] = useState(true);
@@ -36,7 +37,7 @@ export default function ResumeSection() {
         {/* Action Buttons */}
         <div className="flex items-center gap-2.5">
           <a
-            href={personalInfo.resumeUrl}
+            href={resumePdf}
             download="Bhaskar_G_Resume.pdf"
             onClick={launchConfetti}
             className="flex items-center gap-2 px-5 py-2.5 rounded-md bg-gold-500 hover:bg-gold-400 text-editor-deep font-bold text-sm transition-all shadow-gold-sm hover:shadow-gold-glow"
@@ -46,7 +47,7 @@ export default function ResumeSection() {
           </a>
 
           <a
-            href={personalInfo.resumeUrl}
+            href={resumePdf}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-md bg-editor-card hover:bg-editor-hover border border-editor-border text-slate-300 text-sm font-medium transition-colors"
@@ -182,9 +183,9 @@ export default function ResumeSection() {
         </div>
 
         {showIframe && (
-          <div className="w-full h-[600px] rounded-lg overflow-hidden border border-editor-bordersubtle bg-editor-deep">
+          <div className="w-full h-[650px] sm:h-[800px] rounded-lg overflow-hidden border border-editor-bordersubtle bg-editor-deep">
             <iframe
-              src="/resume.pdf"
+              src={resumePdf}
               title="Bhaskar G Resume PDF"
               className="w-full h-full border-none"
             />
