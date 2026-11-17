@@ -149,4 +149,4 @@ Follow the interactive prompts to deploy directly.
 
 LIVE WEBSITE
 
-github.com/02bhaskar/portfolio
+https://02bhaskar.github.io/portfolio/
