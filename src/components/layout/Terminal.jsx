@@ -76,8 +76,7 @@ Location: ${personalInfo.location}`
   1. RoutingVanguard       - AI Smart Logistics for Complex Terrains
   2. EchoShield ANC        - Industrial Active Noise Cancellation (Vishwakarma '25)
   3. AgroSmart             - AI-Powered Farmer Advisory Web Platform
-  4. Zeno AI Assistant     - Offline On-Device Mobile Voice Assistant
-  5. Tourist Route Planner - Flutter Travel Itinerary Optimizer`
+  4. RedVolt               - Full-Stack EV Charging Station Management Platform`
         });
         setActiveTab('projects');
       } else if (cmd === 'skills') {

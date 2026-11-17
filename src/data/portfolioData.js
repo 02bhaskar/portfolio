@@ -134,44 +134,25 @@ export const projectsData = [
     status: "Deployed / Functional Web System"
   },
   {
-    id: "zeno-ai-assistant",
-    title: "Zeno AI Assistant",
-    subtitle: "Offline Voice & Device Assistant Application",
-    category: "Mobile & Edge AI",
-    featured: false,
-    fileBadge: "ZenoAssistant.dart",
-    description: "A privacy-centric, on-device voice assistant application built with Flutter that executes user commands, speech recognition, and system triggers completely offline.",
-    longDescription: "Designed for scenarios where cloud connectivity is unavailable or privacy is critical. Zeno AI Assistant processes voice commands directly on the user's mobile device, triggering local phone automation, utilities, and queries without transmitting audio to remote cloud endpoints.",
-    tags: ["Flutter", "Edge AI", "Offline Speech", "Android Studio", "Dart"],
-    technologies: ["Flutter", "Dart", "Android Studio", "Speech Recognition", "Local Storage"],
+    id: "redvolt",
+    title: "RedVolt",
+    subtitle: "Full-Stack EV Charging Station Management Platform",
+    category: "Full-Stack Web",
+    featured: true,
+    fileBadge: "RedVolt.jsx",
+    description: "A full-stack EV charging management platform designed to simplify charging station discovery, manage real-time slot bookings, and monitor station operations.",
+    longDescription: "RedVolt is a full-stack EV charging management platform designed to simplify charging station management, monitor charging sessions, and provide an efficient digital experience for EV charging operations. Features an interactive Leaflet map for discovering stations by proximity and port type, an automated booking workflow for EV drivers, and administrative dashboards for station analytics and slot status.",
+    tags: ["Full-Stack", "React", "Node.js", "Express", "MongoDB", "Leaflet Maps", "JWT"],
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Leaflet", "JWT Auth"],
     highlights: [
-      "100% offline operation ensuring zero voice data leakage or cloud latency.",
-      "Custom Flutter UI with dynamic voice visualizer wave animations.",
-      "System automation shortcuts for quick phone task execution."
+      "Interactive Leaflet geospatial mapping for real-time EV charging station discovery and navigation.",
+      "Slot reservation and booking system supporting Ultra-Fast DC, Fast DC, and AC Type 2 ports.",
+      "Secure JWT-based authentication with role-based access for drivers and station administrators.",
+      "RESTful API backend powered by Express and Mongoose for live slot and charging session tracking."
     ],
-    github: "https://github.com/02bhaskar",
+    github: "https://github.com/02bhaskar/RedVolt",
     demo: "#",
-    status: "Mobile Application Prototype"
-  },
-  {
-    id: "tourist-route-planner",
-    title: "Tourist Route Planner",
-    subtitle: "Intelligent Travel & Itinerary Optimizer",
-    category: "Mobile",
-    featured: false,
-    fileBadge: "RoutePlanner.dart",
-    description: "A mobile travel assistant enabling tourists to plan, customize, and optimize multi-destination itineraries based on travel preferences, time budgets, and route efficiency.",
-    longDescription: "Built with Flutter and Dart, the Tourist Route Planner simplifies travel planning by calculating optimal sequencing between attractions, managing stopover timing, and presenting interactive route paths for seamless vacation navigation.",
-    tags: ["Flutter", "Mobile", "Maps API", "Itinerary Planning", "UI/UX"],
-    technologies: ["Flutter", "Dart", "Google Maps API", "Android Studio"],
-    highlights: [
-      "Multi-stop route sequencing algorithm to minimize transit exhaustion.",
-      "Clean travel itinerary organizer with bookmarking and notes.",
-      "Cross-platform Flutter codebase with high frame-rate animations."
-    ],
-    github: "https://github.com/02bhaskar",
-    demo: "#",
-    status: "Mobile Prototype"
+    status: "Functional Full-Stack Platform"
   }
 ];
 

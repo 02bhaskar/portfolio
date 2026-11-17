@@ -102,16 +102,10 @@ export const FlagshipProjects: Project[] = [
     impact: "AI-based crop and soil health recommendations for farmers"
   },
   {
-    title: "Zeno AI Assistant",
-    category: "Mobile Edge AI",
-    stack: ["Flutter", "Dart", "Android Studio", "Local NLP"],
-    impact: "Offline on-device voice assistant for privacy-centric automation"
-  },
-  {
-    title: "Tourist Route Planner",
-    category: "Mobile Companion",
-    stack: ["Flutter", "Dart", "Google Maps API"],
-    impact: "Multi-destination itinerary route sequencing and travel optimization"
+    title: "RedVolt",
+    category: "Full-Stack Web & EV Systems",
+    stack: ["React", "Node.js", "Express", "MongoDB", "Leaflet"],
+    impact: "Full-stack EV charging platform with real-time station discovery & slot booking"
   }
 ];`,
 

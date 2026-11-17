@@ -17,7 +17,7 @@ export default function ProjectsSection() {
   const [selectedFilter, setSelectedFilter] = useState('All');
   const [activeModalProject, setActiveModalProject] = useState(null);
 
-  const categories = ['All', 'AI & Systems', 'Hardware & Edge DSP', 'Web & AI', 'Mobile'];
+  const categories = ['All', ...Array.from(new Set(projectsData.map(p => p.category)))];
 
   const filteredProjects = selectedFilter === 'All'
     ? projectsData
