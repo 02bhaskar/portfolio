@@ -8,8 +8,8 @@ export const personalInfo = {
   phone: "+91 9345614976",
   github: "https://github.com/02bhaskar",
   linkedin: "https://www.linkedin.com/in/boss02",
-  profileImage: "/bhaskar.jpg",
-  resumeUrl: "/resume.pdf",
+  profileImage: "./bhaskar.jpg",
+  resumeUrl: "./resume.pdf",
   bio: "Pre-final Year B.Tech student in Artificial Intelligence and Data Science at Dr. N.G.P. Institute of Technology. Passionate about architecting intelligent systems that bridge modern full-stack web applications, edge AI/ML solutions, and embedded hardware prototypes.",
   stats: [
     { label: "Academic Standing", value: "B.Tech AI & DS", sub: "2024 – 2028" },

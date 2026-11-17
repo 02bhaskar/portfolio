@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../icons/BrandIcons';
 import { personalInfo } from '../../data/portfolioData';
+import profilePhoto from '../../assets/profile.jpg';
 
 export default function HeroSection({ setActiveTab }) {
   return (
@@ -140,7 +141,7 @@ export default function HeroSection({ setActiveTab }) {
               <div className="relative mb-4">
                 <div className="w-32 h-32 rounded-full p-1 bg-gradient-to-tr from-gold-500 via-amber-300 to-editor-border shadow-gold-sm">
                   <img
-                    src={personalInfo.profileImage}
+                    src={profilePhoto}
                     alt={personalInfo.name}
                     className="w-full h-full object-cover rounded-full bg-editor-deep"
                     onError={(e) => {
